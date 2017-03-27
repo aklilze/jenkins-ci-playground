@@ -15,7 +15,7 @@ node {
 
         //rtGradle.run buildFile: 'build.gradle', tasks: 'flywayMigrate', buildInfo: buildInfo
 
-        sh '.gradlew/flywayMigrate'
+        sh './gradlew flywayMigrate'
         //echo 'Exec Gradle ....'
 
 
