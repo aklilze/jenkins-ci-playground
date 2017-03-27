@@ -3,6 +3,8 @@
 node {
     stage('Build'){
 
+        checkout scm
+
         echo 'Building ....'
     }
     stage('Test'){
